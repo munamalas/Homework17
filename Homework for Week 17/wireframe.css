@@ -1,0 +1,173 @@
+/*Navigation Bar*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightblue;
+  color: white;
+}
+/*picture of me on the left*/
+.left{
+  position:relative;
+  float: left; 
+  width: 40%;
+  padding: 12px;
+  font-weight: normal;
+}
+/*Skills*/
+
+/*linkedin logo*/
+.fa2 {
+  position: relative;
+  float: left;
+  font-size: 60px;
+  width: 30%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: left;
+}
+.fa2:hover {
+  opacity: 0.7;
+}
+#AboutMe{
+  text-align: left;
+  display: inline;
+}
+ul{
+  text-align: left;
+}
+/*dribble logo*/
+.fa {
+  position: relative;
+  float: left;
+  font-size: 60px;
+  width: 35%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+/*resume button on the header*/
+.resume {
+  background-color: #550504; /* Dark Red */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.resume::shadow {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*Background Image*/
+
+/*text color*/
+p{
+  color: black;
+}
+
+/*portfolio Gallery*/
+.col-sm-6{
+  position: relative;
+}
+
+/*Flip Cards*/
+.flip-card {
+  background-color: transparent;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateY(180deg);
+  font-display: 14px;
+}
+
+
+/*media query stuff*/
+@media only screen and (max-width: 700px){
+  
+  .AboutMe{
+   display: block;
+   text-align: end;
+   float: left;
+  }
+  .fa{
+    visibility: hidden;
+  }
+  .fa2{
+    visibility: hidden;
+  }
+  .ul{
+   float: right;
+  }
+  .flip-card{
+    display: inline-block;
+  }
+}

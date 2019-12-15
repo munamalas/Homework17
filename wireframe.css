@@ -26,24 +26,27 @@
   color: white;
 }
 /*picture of me on the left*/
+#container{
+  float: center;
+}
+#info img{
+  float: left;
+  width: 80%;
+}
 .left{
-  position:relative;
-  float: left; 
-  width: 40%;
-  padding: 12px;
+  float: center; 
   font-weight: normal;
 }
-/*Skills*/
+/*Coding Pojects Indent*/
+
 
 /*linkedin logo*/
 .fa2 {
   position: relative;
-  float: left;
   font-size: 60px;
   width: 30%;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
   float: left;
 }
 .fa2:hover {
@@ -157,12 +160,6 @@ p{
    display: block;
    text-align: end;
    float: left;
-  }
-  .fa{
-    visibility: hidden;
-  }
-  .fa2{
-    visibility: hidden;
   }
   .ul{
    float: right;

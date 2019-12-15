@@ -32,6 +32,7 @@
 #info img{
   float: left;
   width: 80%;
+  padding: 8px;
 }
 .left{
   float: center; 
@@ -44,7 +45,7 @@
 .fa2 {
   position: relative;
   font-size: 60px;
-  width: 30%;
+  width: 31%;
   text-align: center;
   text-decoration: none;
   float: left;

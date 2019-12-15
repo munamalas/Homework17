@@ -14,58 +14,59 @@
         <a class="active" href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="#contact">Contact</a>
-        <li style="float:right"><a class="resume" href="Srujana_Resume_2.pdf">Resume</a></li>
+        <li style="float:right"><a class="resume" href="images/Srujana_Resume_2.pdf">Resume</a></li>
 </div>
 <!--Image of me on the left-->
-<div id="container">
-    <div class="left">
-        <div id="info">
-            <img src="SrujanaMunamala.jpg" width="50%">
-            <p><b>Srujana Munamala</b></p>
-            <div class="header">
-            <!--Social Media Link(s)-->
-            <div class="fa">
-              <img src="DribbleHeader.jpeg" alt="dribblelogo" width="50%">
-            </div>
-            <div class="fa2">
-                <img src="linkedinlogo2.png" alt="linkedinlogo" width="50%">
-            </div>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-
-<!--About Me stuff-->
-<div id="container">
-        <div id="AboutMe">
-            <h2> <b>About Me</b></h2>
-            <p> My name is Srujana Munamala.  I am a recent graduate of Purdue University.  I have a Bachelor's degree in Psychology.  I was an Undergraduate Research Assistant in the Psychology Department.  I assisted in various projects across multiple disciplines in Psychology.  During the 
-                summer of 2018, I worked with a professor in the Industrial Engineering Lab.  It was because of my experience there that I became interested in UX/UI Design.
-            </p>
-            <h3><b>Skills</b></h3>
-            <ul style="list-style-type: none;">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>SPSS</li>
-                <li>JavaScript</li>
-                <li>Jquery</li>
-                <li>Bootstrap</li>
-              </ul>  
+<div class="container-fluid">  <!--main container-->
+    <div class="row"><!--main row with about and info sections-->
+        <div class="left col-md-4 col-sm-12" id="info">
+            <img src="./images/SrujanaMunamala.jpg" class= "img-fluid">
+                <div class="header">
+                    <!--Social Media Link(s)-->
+                    <div class="fa">
+                    <img src="./images/DribbleHeader.jpeg" alt="dribblelogo" width="50%">
+                    </div>
+                    <div class="fa2">
+                        <img src="images/linkedinlogo2.png" alt="linkedinlogo" width="25%">
+                    </div>
+                </div>
         </div>
    
-    
+
+    <!--About Me stuff-->
+
+    <div id="AboutMe" class="col-md-8">
+        <h2> <b>About Me</b></h2>
+        <p> My name is Srujana Munamala.  I am a recent graduate of Purdue University.  I have a Bachelor's degree in Psychology.  I was an Undergraduate Research Assistant in the Psychology Department.  I assisted in various projects across multiple disciplines in Psychology.  During the 
+            summer of 2018, I worked with a professor in the Industrial Engineering Lab.  It was because of my experience there that I became interested in UX/UI Design.
+        </p>
+        <h3><b>Skills</b></h3>
+        <ul style="list-style-type: none;">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SPSS</li>
+            <li>JavaScript</li>
+            <li>Jquery</li>
+            <li>Bootstrap</li>
+          </ul>  
+    </div>
+   
+    </div>
+
 <!-- Portfolio Gallery -->
+<div class="w-100"></div>
 <!--Design Projects-->
-<div id="header">
-    <h2><b>Design Projects</b></h2>
-    <p text-align="left">These are some of the projects that I have worked on.  Hover over each card to see what tools were used for each project.  For more details on the project, click on the Portfolio tab.</p>
-  </div>
+<div class="row">
+    <div id="header" class="col-sm-12">
+        <h2><b>Design Projects</b></h2>
+        <p text-align="left">These are some of the projects that I have worked on.  Hover over each card to see what tools were used for each project.  For more details on the project, click on the Portfolio tab.</p>
+    </div>
+    <div class="w-100"></div>
   <div class="row align-items-start">
         <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="BudgetPlannerLogo.png" alt="Budget Planner" style="width:100%">
+                  <img src="./images/BudgetPlannerLogo.png" alt="Budget Planner" style="width:100%">
                   </div>
                 <div class="flip-card-back">
                     <h2> Budget Planner</h2>
@@ -76,7 +77,7 @@
         <div class="flip-card">
               <div class="flip-card-inner">
                  <div class="flip-card-front">
-                   <img src="RidMeLogo2.png" alt="RidMe" style="width:100%">
+                   <img src="./images/RidMeLogo2.png" alt="RidMe" style="width:100%">
                  </div>
                  <div class="flip-card-back">
                     <h2> RidMe</h2>
@@ -87,7 +88,7 @@
         <div class="flip-card">
             <div class="flip-card-inner">
                <div class="flip-card-front">
-                 <img src="twitchlogo.jpeg" alt="Twitch" style="width:100%">
+                 <img src="./images/twitchlogo.jpeg" alt="Twitch" style="width:100%">
                </div>
                <div class="flip-card-back">
                   <h2> Twitch</h2>
@@ -99,7 +100,7 @@
         <div class="flip-card">
              <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="EDD Logo.png" alt="EDD" style="width:90%">
+                    <img src="./images/EDD Logo.png" alt="EDD" style="width:90%">
                 </div>
                 <div class="flip-card-back">
                     <h4> EDD (Employment Development Department)</h4>
@@ -110,7 +111,7 @@
         <div class="flip-card">
               <div class="flip-card-inner">
                   <div class="flip-card-front">
-                      <img src="EastOaklandCollectiveLogo.png" alt="EastOaklandCollective" style="width:100%">
+                      <img src="./images/EastOaklandCollectiveLogo.png" alt="EastOaklandCollective" style="width:100%">
                   </div>
                   <div class="flip-card-back">
                       <h4> East Oakland Collective</h4>
@@ -121,7 +122,7 @@
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <img src="tingrlogo.png" alt="Tingr Logo" style="width:100%">
+                    <img src="./images/tingrlogo.png" alt="Tingr Logo" style="width:100%">
                 </div>
                 <div class="flip-card-back">
                     <h1> Tingr</h1>
@@ -129,16 +130,19 @@
                 </div>
             </div>
       </div>
-      
+      </div>
         <div class="w-100"></div>
+
+
         <!--Coding Samples-->
-        <div id="header2">
+        <div id="header2" class="row2">
             <h2><b>Coding Projects</b></h2>
-            <p>These are some examples showcasing my ability to code in HTML 5, CSS 3, JavaScript, Jquery, and Bootstrap.</p>
+            <div class="w-100"></div>
+            <p>These are some activities that showcase my ability to code.</p>
         </div>
         <div class="w-100"></div>
-        <img src="Grids.png" alt="CSS Grids" style="width:90%">
-        <img src="Grids.png" alt="CSS Grids" style="width:90%">
-        
+        <img src="images/Grids.png" alt="CSS Grids" style="width:90%">
+        <img src="images/Grids.png" alt="CSS Grids" style="width:90%">
+ </div> <!--container ends tag-->        
  </body>         
 </html>
